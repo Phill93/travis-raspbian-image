@@ -12,11 +12,13 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Some useful constants
-image="opm.img"
+image="custom-raspbian.img"
 mount="mnt"
 script="setup"
-rpi_zip="2017-07-05-raspbian-jessie-lite.zip"
-rpi_url="http://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2017-07-05/${rpi_zip}"
+rpi_date="2019-07-10"
+rpi_deb_version="buster"
+rpi_zip="${rpi_date}-raspbian-${rpi_deb_version}-lite.zip"
+rpi_url="https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-${rpi_date}/${rpi_zip}"
 
 # Unmount drives and general cleanup on exit, the trap ensures this will always
 # run execpt in the most extream cases.
