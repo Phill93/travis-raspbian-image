@@ -22,7 +22,6 @@ rpi_zip="${rpi_img_date}-raspbian-${rpi_deb_version}-lite.zip"
 rpi_url="https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-${rpi_date}/${rpi_zip}"
 
 
-https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-07-12/2019-07-10-raspbian-buster-lite.zip
 # Unmount drives and general cleanup on exit, the trap ensures this will always
 # run execpt in the most extream cases.
 cleanup() {
