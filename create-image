@@ -45,7 +45,7 @@ if ! shasum -c "${rpi_zip}.sha1"
 then
     rm -rf ${rpi_zip}
     wget "${rpi_url}"
-    shasum -c "${rpi_zip}.sha1"s
+    shasum -c "${rpi_zip}.sha1"
 fi
 
 # Clean the existing image files
