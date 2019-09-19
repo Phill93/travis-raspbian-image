@@ -12,7 +12,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Some useful constants
-image="${TRAVIS_REPO_SLUG}.img"
+image="$(dirname $TRAVIS_REPO_SLUG).img"
 mount="mnt"
 script="setup"
 rpi_date="2019-07-12"
