@@ -1,6 +1,6 @@
 # travis-raspbian-image
 
-[![Build Status](https://travis-ci.org/kr15h/travis-raspbian-image.svg?branch=master)](https://travis-ci.org/kr15h/travis-raspbian-image)
+[![Build Status](https://travis-ci.com/Phill93/travis-raspbian-image.svg?branch=master)](https://travis-ci.com/Phill93/travis-raspbian-image)
 
 Test repo for creating customised Raspberry Pi images with Travis CI
 
